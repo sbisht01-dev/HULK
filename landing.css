@@ -1,0 +1,33 @@
+
+body {
+ background-image: images/1.jpg;
+ object-fit: cover;
+ background-color: black;
+}
+
+.header{
+ display: inline-block;
+ height: 100px;
+}
+
+#hulk{
+ font-family: 'Futura PT';
+ font-weight: 700;
+ font-size: 500;
+}
+
+.nav-bar{
+ color: #FFDF3C;
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+ display: inline;
+}
+#join{
+ color: black;
+ background-color: #FFDF3C;
+}
