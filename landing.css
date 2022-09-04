@@ -1,7 +1,8 @@
 
 body {
- background-image: images/1.jpg;
- object-fit: cover;
+ background-image: url("../1.jpg");
+ margin: 0;
+ padding: 0;
  background-color: black;
 }
 
@@ -10,13 +11,20 @@ body {
  height: 100px;
 }
 
-#hulk{
+.hulk{
+ margin-left: 312px ;
+ color: white;
  font-family: 'Futura PT';
- font-weight: 700;
- font-size: 500;
+ font-size: 50px;
+ font-weight: bold;
+ font;
 }
 
 .nav-bar{
+ color: #FFDF3C;
+}
+
+#u{
  color: #FFDF3C;
 }
 
