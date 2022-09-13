@@ -1,41 +1,82 @@
-
-body {
- background-image: url("../1.jpg");
+* {
  margin: 0;
  padding: 0;
- background-color: black;
+ font: 'Arial';
+}
+
+body{
+ background-image: url("/images/1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.container{
+ height: 100vh;
+ width: 100%;
+}
+
+p{
+ max-height: max-content;
 }
 
 .header{
- display: inline-block;
- height: 100px;
+ display: flex;
+ justify-content: space-between;
 }
 
-.hulk{
- margin-left: 312px ;
+.header-title{
+ height: 60px;
+ margin-top: 0px;
+ margin-left: 20px;
  color: white;
  font-family: 'Futura PT';
  font-size: 50px;
  font-weight: bold;
- font;
-}
-
-.nav-bar{
- color: #FFDF3C;
+ font-style: italic;
 }
 
 #u{
- color: #FFDF3C;
+ color: #FFDF3C;  /*for the U in HULK*/
+}
+.header-nav{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 20px;
+ margin-right: 10px;
+}
+
+a{
+ color: yellow;
+
+}
+a:hover{
+ color: white;
 }
 
 ul {
  list-style-type: none;
+ font-size: 15px;
 }
 
 li {
- display: inline;
+ display: inline-block;
+ padding: 2px;
+ margin-right: 10px;
 }
+
 #join{
  color: black;
+ padding: 2px;
  background-color: #FFDF3C;
+ border-radius: 5px;
+ box-shadow: 0;
+ transition: hover 3sec;
+}
+
+#join:hover{
+ padding: 4px;
+ box-shadow: 3px 3px 20px white;
+ color: yellow;
+ background-color: black;
+
 }
