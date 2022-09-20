@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
 * {
  margin: 0;
  padding: 0;
@@ -36,26 +38,30 @@ p{
 }
 
 #u{
- color: #FFDF3C;  /*for the U in HULK*/
+ color: rgba(255, 223, 60, 1);  /*for the U in HULK*/
 }
 .header-nav{
  display: flex;
  justify-content: space-around;
+ align-content: center;
  margin-top: 20px;
  margin-right: 10px;
+ 
 }
 
 a{
- color: yellow;
-
+ font-family: 'Roboto', sans-serif;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ transition: all 0.3s ease 0s ;
 }
 a:hover{
- color: white;
+ color: rgba(255, 223, 60, 1);
 }
 
 ul {
  list-style-type: none;
- font-size: 15px;
+ font-size: 16px;
 }
 
 li {
@@ -66,17 +72,28 @@ li {
 
 #join{
  color: black;
- padding: 2px;
- background-color: #FFDF3C;
- border-radius: 5px;
+ font-weight: bold;
+ padding: 5px;
+ background-color: rgba(255, 223, 60, 1);
+ border-radius: 6px;
  box-shadow: 0;
- transition: hover 3sec;
+ transition: hover 3sec ease;
 }
 
 #join:hover{
- padding: 4px;
- box-shadow: 3px 3px 20px white;
- color: yellow;
- background-color: black;
+ padding: 5px;
+ background-color: rgba(255, 223, 60, 0.8)
 
+}
+
+.main_quote{
+ display: flex;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 900;
+ font-size: 100px;
+ text-align: center;
+ margin: auto;
+ justify-content: center;
+ margin-top:150px;
 }
